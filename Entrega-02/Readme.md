@@ -19,11 +19,12 @@ Reformulamos nuestra hipótesis, consultamos más fuentes y decidimos incluir in
 ## Historia:
 
 La estructura de nuestra historia se basará en un repaso uno por uno de los paises, comentando en primera instancia la percepción que este tiene de nosotros en materia de seguridad, esta información se conseguirá en base a noticias y los comunicados de embajadas.
+Desde el estallido social en adelante, Chile ha sido protagonista de numerosos titulares or protestas, robos y violencia. ¿Ha tenido repercusiones en nuestra industria turistica?
 
-También se darán los números de visitantes y se comentarán noticias de fechas especificas: 
+(Se darán los números de visitantes y se comentarán noticias de fechas especificas. Por ejemplo, se presentan noticias en masa sobre robos de chilenos en e.e.u.u y se muestran los ingresos de turistas norteamericanos en las fechas siguientes). 
 
-Por ejemplo, se presentan noticias en masa sobre robos de chilenos en e.e.u.u y se muestran los ingresos de turistas norteamericanos en las fechas siguientes. 
+A esto se suma que muchos países, incluyendo Estados Unidos, Canadá, Australia, Nueva Zelanda y Francia han aumentado la alerta entre los connacionales que viajan a nuestro país.  
 
-La idea es que al terminar el repaso se exponga el verdadero efecto que tiene la percepción sobre las visitas reales que llegan.
+A pesar de este alarmismo, el turismo no ha caido de la misma manera en que si lo ha hecho nuestra posicion en el Indice de Paz Global. ¿Por qué?
 
-Por lo que hemos podido indagar, 
+Todo esto lo contaremos, por su puesto, de manera gráfica y armonica y actualizaremos nuestro proyecto de manera periódica.
