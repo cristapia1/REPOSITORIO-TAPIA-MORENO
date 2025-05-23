@@ -18,9 +18,14 @@ Finalmente, procedí a codificar el gráfico de barras con altair. Desarrollé i
 
 Utilicé como insumo una serie de bases facilitadas por el Serntaur y la Subsecretaría de Turismo que incluía, entre otros, una tabla con los principales países de procedencia de los turistas que entraban a Chile entre 2008 y 2025, a la cual le hice los siguientes cambios: 
 
--Reescribí todas las celdas de fechas, eliminando la fila que indicaba solo los años para que quedara solo una con el formato "abr-09". 
+-Reescribí todas las celdas de fechas, eliminando la fila que indicaba solo los años para que quedara solo una con el formato "abr-09".
+
 -Quité los totales de de los años y de los continentes, ya que al ser un gráfico que muestra los flujos meses a mes esta era una variable que no me interesaba mostrar.
--agregué una columna que especifica el continente en el que se encuentra dicho país, para futuras visualizaciones. 
+
+-agregué una columna que especifica el continente en el que se encuentra dicho país, para futuras visualizaciones.
+
+-quité los meses del 2008, debido a que en la gran mayoría de los países faltaban datos, al estar incompletos decidí removerlos.
+
 -Transforme el archivo a un csv delimitado por comas.
 
 ## Preguntas que se pueden responder con la visualización 
