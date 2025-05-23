@@ -1,4 +1,4 @@
-#¿Volverá a ser como antes? Una radiografía del turismo extranjero en Chile
+# ¿Volverá a ser como antes? Una radiografía del turismo extranjero en Chile
 
 EL turismo supone una de las actividades econ+omicas de nuestro país. Según estimaciones del Sernatur y de la subsecretaría del turismo, la industria turística nacional representó en 2019 un 3,3% del PIB, equivalente 6.490 mil millones de pesos. 
 
