@@ -22,6 +22,8 @@ Redondeando un poco la idea, La webstory procede a través de un formato de visu
 
 [Link prototipo Figma para ver interacción con los idiomas](https://www.figma.com/design/GYvatF0THMg5hIzEnn2I8G/Frame-turismo?node-id=3-4&p=f&t=SWv11gtIWrBPCx7b-0)
 
+Decidimos trabajar con Figma al tener experiencia previa con esta a la hora de elaborar prototipos digitales.
+
 Para abordar el tema, decidimos dividirlo en tres bloques principales (además de un cierre como tal): 
 
 1.- Percepción de inseguridad y contexto de la crisis de seguridad en Chile: con apoyo visual de capturas de medios hablando de la crisis y la alerta que emitió el gobierno de Estados Unidos para sus ciudadanos que viajen a Chile (destino que pasó de estar en la categoría más segura a integrar otra en la que se deben incrementar los cuidados). 
@@ -32,5 +34,10 @@ Para abordar el tema, decidimos dividirlo en tres bloques principales (además d
 
 Buscamos jugar con la progesión que diseñamos en el mapa de viaje: llamar la atención con las capturas relacionadas a la percepcion de inseguridad y que esta vaya creciendo conforme el usuario progrese con la historia, suponiendo un hito que el flujo de turistas se sigue recuperando y se demuestre que el turismo en Chile no cesa (para Michael es bueno ya que no se siente solo y por otra parte se visibiliza esta tendencia y la necesidad de protegerla).
 
+En cuanto al diseño de esta, nos inspiramos levemente en una webstory de [Pudding](https://pudding.cool/2025/05/aapi-casting/), la cual comienza con algo visualmente llamativo antes de avanzar con el texto y desglose como tal. Por ende, comenzamos con una juxtaposición de dos imágenes llamativas y antagónicas: La belleza de los paisajes turísticos de Chile y la crudeza de la inseguridad que reina en este, reflejado en plano de un miembro de las fuerzas especiales de Carabineros en una escena criminal y con luces rojas alarmantes). 
+
+Sin perder el norte de la sobriedad, decidimos que la historia avanzara de forma ordenada y mezclando texto con visual, apoyando la sucesion con íconos y el tono azul más fuerte de nuestro repertorio para ir al tema clave: el flujo de turistas.
+
+después del tercer bloque, queremos redondear la webstory con nuestras conclusiones, las cuales de momento no hemos formulado.
 
 Para asegurarnos de cumplir con los requisitos de la entrega, hicimos funcionar un prototipo que ilustra la posibilidad de cambiar el idioma de la webstory a inglés, esto con el fin de abarcar más público y que turistas (pueden ser otras personas interesadas también) como Michael (nuestro arquetipo objetivo) puedan empaparse de la historia.
