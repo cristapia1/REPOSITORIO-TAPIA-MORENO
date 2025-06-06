@@ -30,7 +30,7 @@ Para abordar el tema, decidimos dividirlo en tres bloques principales (además d
 
 3.- El flujo de tursitas extranjeros hacia Chile, junto con el gráfico pertinente de los países que más visitantes aportan, seguido de una explicación y análisis.
 
-Buscamos jugar con la progesión que diseñamos en el mapa de viaje: llamar la atención con las capturas relacionadas a la percepcion de inseguridad
+Buscamos jugar con la progesión que diseñamos en el mapa de viaje: llamar la atención con las capturas relacionadas a la percepcion de inseguridad y que esta vaya creciendo conforme el usuario progrese con la historia, suponiendo un hito que el flujo de turistas se sigue recuperando y se demuestre que el turismo en Chile no cesa (para Michael es bueno ya que no se siente solo y por otra parte se visibiliza esta tendencia y la necesidad de protegerla).
 
 
 Para asegurarnos de cumplir con los requisitos de la entrega, hicimos funcionar un prototipo que ilustra la posibilidad de cambiar el idioma de la webstory a inglés, esto con el fin de abarcar más público y que turistas (pueden ser otras personas interesadas también) como Michael (nuestro arquetipo objetivo) puedan empaparse de la historia.
