@@ -12,12 +12,9 @@ Junto con el gráfico, elaboré una tabla con los países protgonistas de este, 
 
 A esto le sumé los puntos clave que creo que se deben considerar o reflexionar tras la lectura del gráfico de barras. Incluye inferencias, información adicional, observaciones (algunas relacionadas con la crisis de seguridad, aludiendo a otro de los grandes temas de la webstory) y conclusiones. Esto para ayudar a entender mejor el gráfico.
 
-También incluí una imagen de Torres del Paine (Getty Images) para hacer más atractivo el afiche.
+También incluí una imagen de Torres del Paine (Getty Images) para hacer más atractivo el afiche y asociarlo al wireframe del webstory, para que, junto con el uso de mismos colores y un orden similar, tengan la misma personalidad. 
 
 Por último, anadí un texto con las conclusiones a sacar del gráfico y relacionado con nuestra hipótesis "La percepcion de inseguridad hacia nuestro país no ha afectado el flujo de turistas extranjeros", la cual no se puede comprobar solo con el gráfico, aunque este si nos puede deslumbrar un panorama general del ingreso de turistas y por ende extrapolarlo a la industria en general. Hay que seguir trabajando.
 
 
 
-
-
-## De qué manera los elementos visuales, los datos y prosa potencian y clarifican el mensaje comunicacional de la pieza.
