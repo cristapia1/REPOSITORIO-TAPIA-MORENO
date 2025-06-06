@@ -1,6 +1,5 @@
 # Análisis
 
-## Descripción de la lectura visual de la pieza
 
 Buscando ser coherente con nuestro manual de identidad visual, Se utilizó la misma tipografía, colores, logo y algunos de los íconos incluidos en esta (banderas).
 
