@@ -32,6 +32,7 @@ Para abordar el tema, decidimos dividirlo en tres bloques principales (además d
 
 3.- El flujo de tursitas extranjeros hacia Chile, junto con el gráfico pertinente de los países que más visitantes aportan, seguido de una explicación y análisis.
 
+
 Buscamos jugar con la progesión que diseñamos en el mapa de viaje: llamar la atención con las capturas relacionadas a la percepcion de inseguridad y que esta vaya creciendo conforme el usuario progrese con la historia, suponiendo un hito que el flujo de turistas se sigue recuperando y se demuestre que el turismo en Chile no cesa (para Michael es bueno ya que no se siente solo y por otra parte se visibiliza esta tendencia y la necesidad de protegerla).
 
 En cuanto al diseño de esta, nos inspiramos levemente en una webstory de [Pudding](https://pudding.cool/2025/05/aapi-casting/), la cual comienza con algo visualmente llamativo antes de avanzar con el texto y desglose como tal. Por ende, comenzamos con una juxtaposición de dos imágenes llamativas y antagónicas: La belleza de los paisajes turísticos de Chile y la crudeza de la inseguridad que reina en este, reflejado en plano de un miembro de las fuerzas especiales de Carabineros en una escena criminal y con luces rojas alarmantes). 
@@ -39,5 +40,6 @@ En cuanto al diseño de esta, nos inspiramos levemente en una webstory de [Puddi
 Sin perder el norte de la sobriedad, decidimos que la historia avanzara de forma ordenada y mezclando texto con visual, apoyando la sucesion con íconos y el tono azul más fuerte de nuestro repertorio para ir al tema clave: el flujo de turistas.
 
 después del tercer bloque, queremos redondear la webstory con nuestras conclusiones, las cuales de momento no hemos formulado.
+
 
 Para asegurarnos de cumplir con los requisitos de la entrega, hicimos funcionar un prototipo que ilustra la posibilidad de cambiar el idioma de la webstory a inglés, esto con el fin de abarcar más público y que turistas (pueden ser otras personas interesadas también) como Michael (nuestro arquetipo objetivo) puedan empaparse de la historia.
