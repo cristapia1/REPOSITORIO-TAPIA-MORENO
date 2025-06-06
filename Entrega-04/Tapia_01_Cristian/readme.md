@@ -1,1 +1,1 @@
-ejfnejfnkejfne
+El afiche replica los aspectos de la guia visual y busca explicar de forma breve que no hay de que preocuparse si se quiere viajar a Chile, mientras se tomen las precauciones debidas no sería diferente a otro país de Latam, además se explica que no todos los delitos afectan directamente a las personas que van de paso en el país. Busca decirlo de forma más directa y está dirigido especialmente a un ciudadano extranjero que por estar expuesto a noticias negativas cree que el país es un caos. 
