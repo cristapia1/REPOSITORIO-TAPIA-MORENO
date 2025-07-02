@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>La copia feliz del Edén</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+      color: #333;
+    }
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 40px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    header img {
+      height: 80px;
+    }
+    header h1 {
+      font-size: 2.3em;
+      margin: 0;
+      flex: 1 1 auto;
+      max-width: 600px;
+    }
+    nav {
+      background-color: #ffffffee;
+      padding: 10px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #007acc;
+      font-weight: bold;
+    }
+    .bloque {
+      background-color: white;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 900px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      margin: 20px 0;
+    }
+    img.full {
+      width: 100%;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    p {
+      line-height: 1.7;
+      font-size: 1.1em;
+    }
+    h2 {
+      color: #005b9f;
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo alerta turismo.png" alt="Logo Alerta Turismo">
+  <h1>La copia feliz del Edén: ¿Es Chile un país seguro de visitar?</h1>
+</header>
+
+
+
+<nav>
+  <a href="#intro">Inicio</a>
+  <a href="#percepcion">Percepción</a>
+  <a href="#datos">Datos</a>
+  <a href="#turismo">Turismo</a>
+  <a href="#alojamiento">Alojamiento</a>
+  <a href="#conclusion">Conclusión</a>
+</nav>
+
+<section id="intro" class="bloque">
+  <p>Al querer informarse al respecto, un viajero puede toparse con esto…</p>
+  <img src="SCREENSHOT DEPARTAMENTO DE ESTADO EEUU.png" class="full" alt="Depto Estado EE.UU.">
+  <p>Que el propio gobierno de EEUU alerte a sus ciudadanos que hemos dejado de ser un destino puede ser una señal, pero ¿Representa la percepción hacia nosotros que tiene el resto de la comunidad internacional?</p>
+</section>
+
+<section id="percepcion" class="bloque">
+  <p>El Índice de Paz Global, elaborado por el Institute for Economics and Peace, mide los niveles de paz y seguridad de cada país, tomando en cuenta indicadores como el nivel de criminalidad percibida por la sociedad, posibilidad de actos terroristas y el nivel de criminalidad violenta, entre otros.</p>
+  <iframe src="grafico_gpi.html"></iframe>
+  <p>Se ve un claro deterioro de la seguridad de nuestro país comparado con otras naciones, siendo este índice una medida utilizada por gobiernos, organismos multilaterales  y académicos. Pero, ¿y el resto de personas?  Estas utilizan los medios, tanto extranjeros como nacionales.</p>
+  <img src="theclinic.PNG" class="full">
+  <img src="TURISMO EXIJE MAS SEGURIDAD.PNG" class="full">
+  <img src="TURISMO CHILENO AMENAZADO.PNG" class="full">
+</section>
+
+<section id="datos" class="bloque">
+  <p>Ciertamente, hoy los medios han señalado que nos encontramos en una crisis de seguridad a nivel país, en torno a la cual no hay un consenso en su punto de partida. Algunos señalan al estallido social de octubre de 2019, otros al aumento paulatino en los delitos violentos desde 2023, con el ingreso al país de la banda venezolana Tren de Aragua, el aumento de secuestros y casos emblemáticos como el aseisnato de tres carabineros en Cañete en 2024.</p>
+
+  <p>Este es uno de los temas principales en los noticiarios y en la agenda pública. La población exige soluciones y el estado está siempre en busca de ellas, pero ¿Cómo se ve esta supuesta crisis en números?</p>
+
+  <iframe src="delitos_total_pais(1).html"></iframe>
+
+  <p>A pesar del leve aumento desde 2021, que coincide con el comienzo del levantamiento de las restricciones sanitarias por el covid-19, la mayor parte de las familias de delitos han visto un descenso con respecto a los años anteriores al estallido social. En el grupo de Otros delitos (que incluye faltas como el ejercicio del comercio ambulante e infracciones de tránsito).</p>
+
+  <p>Lo mismo pasa a nivel regional, incluyendo regiones con bastante flujo turístico como la metropolitana por contener la capital y el aeropuerto Arturo Merino Benítez, Valparaíso por recibir cruceros y por la ciudad homónima, las de Magallanes y Antofagasta, las que albergan íconos turísticos como lo son las torres del paine y san pedro de atacama respectivamente.</p>
+
+  <iframe src="delitos_antofagasta(1).html"></iframe>
+  <iframe src="delitos_valparaiso(1).html"></iframe>
+  <iframe src="delitos_metropolitana(1).html"></iframe>
+  <iframe src="delitos_magallanes(1).html"></iframe>
+
+  <p>En todas estas se repiten los mismos patrones: un descenso abrupto a partir del 2020 y a partir de 2021-22 un aumento que no obstante no llega a los niveles anteriores.</p>
+  <p>Uno esperaría que el número de delitos hubiera al menos sobrepasado al menos los niveles pre pandemia, lo que no es el caso, ni siquiera en la densamente poblada región metropolitana ni en la norteña Antofagasta. Volviendo al foco, ¿Ha afectado esta crisis al turismo en Chile?</p>
+</section>
+
+<section id="turismo" class="bloque">
+  <p>La industria del turismo es una de las más importantes para el país, no necesariamente por su volumen (xx% del PIB en 20xx) sino por su potencial de crecimiento, dado la infinidad de atracciones turísticas naturales y, que de momento, las condiciones sociales y de seguridad lo permiten. ¿Cómo se ha comportado el flujo de turistas en los últimos años?</p>
+  <iframe src="grafico_continentes.html"></iframe>
+  
+  <p>La gran mayoría de los turistas entrantes provienen no de EE. UU. ni de Europa, sino de América del Sur, representando esta alrededor de un 80% de la proporción total de visitantes y dentro del cual se encuentran los principales países que nos visitan.</p>
+<iframe src="GRAFICOS PAIS DANIEL.html"></iframe>
+  <p>Se puede apreciar como el flujo solo se ha interrumpido durante la pandemia y que este, a pesar de no estar actualmente en los niveles pre pandemia, se está recuperando de manera exponencial, quedando solo esperar a observar cómo progresa la tendencia este año.</p>
+</section>
+
+<section id="alojamiento" class="bloque">
+  <p>Ahora, desde el flujo de turistas todo indica que nuestra industria va viento en popa, pero, ¿Qué pasa desde la industria del alojamiento?</p>
+  <iframe src="grafico_pernoctaciones_nacional.html"></iframe>
+  <p>Como se puede ver, la cantidad de turistas (extranjeros y chilenos) se recupera de forma progresiva, sin alcanzar todavía los niveles previos a 2020. No obstante, La Tasa de ocupación de habitaciones en recintos turísticos SÍ ha vuelto a los niveles pre-pandemia y llegando a su peak histórico con un 41,1% en 2023 y con un actual de 44,4% en lo que va de 2025. El patrón se repite en regiones.</p>
+  <iframe src="grafico_pernoctaciones_antofagasta.html"></iframe>
+  <iframe src="grafico_pernoctaciones_valparaiso.html"></iframe>
+  <iframe src="grafico_pernoctaciones_RM.html"></iframe>
+  <iframe src="grafico_pernoctaciones_Magallanes.html"></iframe>
+</section>
+
+<section id="conclusion" class="bloque">
+  <p>La seguridad se ha transformado en uno de los principales focos de preocupación en el país, pero si miramos los datos, el panorama es menos alarmante de lo que parece: los niveles de delincuencia, incluso en zonas turísticas clave, siguen por debajo de lo registrado antes del estallido social.</p>
+  <p>Mientras tanto, el turismo ha seguido avanzando. El número de visitantes crece año a año y la ocupación en alojamientos turísticos ha llegado a cifras récord. Esto demuestra que, más allá del ruido mediático, Chile continúa siendo percibido por muchos como un destino seguro y atractivo. Es necesario, no obstante, entender la industria como una de naturaleza cambiante y la que se debe entender a través de estudios que permitan rediseñar las políticas públicas correspondientes para asegurar nuestra adaptabilidad.</p>
+  <p>Puede que hoy no seamos del todo esa "copia feliz del Edén", pero seguimos siendo un país que recibe con los brazos abiertos y que aún cuenta con el prestigio de su marca país.</p>
+</section>
+
+</body>
+</html>
