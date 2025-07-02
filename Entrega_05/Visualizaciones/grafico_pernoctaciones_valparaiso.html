@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"mark": {"type": "bar", "color": "steelblue"}, "encoding": {"tooltip": [{"field": "A\u00f1o", "type": "nominal"}, {"field": "Pernoctaciones_millones", "format": ".1f", "title": "Pernoctaciones (millones)", "type": "quantitative"}, {"field": "Tasa_Ocupaci\u00f3n", "format": ".1f", "title": "Tasa de ocupaci\u00f3n (%)", "type": "quantitative"}], "x": {"field": "A\u00f1o", "title": "A\u00f1o", "type": "ordinal"}, "y": {"axis": {"format": ".1f", "titleColor": "steelblue"}, "field": "Pernoctaciones_millones", "title": "Pernoctaciones (millones)", "type": "quantitative"}}}, {"mark": {"type": "line", "color": "crimson", "strokeWidth": 5}, "encoding": {"tooltip": [{"field": "A\u00f1o", "type": "nominal"}, {"field": "Pernoctaciones_millones", "format": ".1f", "title": "Pernoctaciones (millones)", "type": "quantitative"}, {"field": "Tasa_Ocupaci\u00f3n", "format": ".1f", "title": "Tasa de ocupaci\u00f3n (%)", "type": "quantitative"}], "x": {"field": "A\u00f1o", "title": "A\u00f1o", "type": "ordinal"}, "y": {"axis": {"format": ".1f", "titleColor": "crimson"}, "field": "Tasa_Ocupaci\u00f3n", "title": "Tasa de ocupaci\u00f3n (%)", "type": "quantitative"}}}], "data": {"name": "data-4f1c6eb8d8443aa4e5923c47701ac363"}, "height": 400, "resolve": {"scale": {"y": "independent"}}, "title": "Pernoctaciones y Tasa de Ocupaci\u00f3n Habitaciones Regi\u00f3n de Valpara\u00edso (2017\u20132025)", "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-4f1c6eb8d8443aa4e5923c47701ac363": [{"A\u00f1o": "2017", "Pernoctaciones": 3204740.0, "Tasa_Ocupaci\u00f3n": 30.1, "Pernoctaciones_millones": 3.20474}, {"A\u00f1o": "2018", "Pernoctaciones": 3000164.0, "Tasa_Ocupaci\u00f3n": 28.2, "Pernoctaciones_millones": 3.000164}, {"A\u00f1o": "2019", "Pernoctaciones": 2686888.0, "Tasa_Ocupaci\u00f3n": 26.4, "Pernoctaciones_millones": 2.686888}, {"A\u00f1o": "2020", "Pernoctaciones": 1074377.0, "Tasa_Ocupaci\u00f3n": 22.0, "Pernoctaciones_millones": 1.074377}, {"A\u00f1o": "2021", "Pernoctaciones": 1724239.0, "Tasa_Ocupaci\u00f3n": 26.3, "Pernoctaciones_millones": 1.724239}, {"A\u00f1o": "2022", "Pernoctaciones": 2444171.0, "Tasa_Ocupaci\u00f3n": 29.9, "Pernoctaciones_millones": 2.444171}, {"A\u00f1o": "2023", "Pernoctaciones": 2409971.0, "Tasa_Ocupaci\u00f3n": 30.1, "Pernoctaciones_millones": 2.409971}, {"A\u00f1o": "2024", "Pernoctaciones": 2508171.0, "Tasa_Ocupaci\u00f3n": 30.7, "Pernoctaciones_millones": 2.508171}, {"A\u00f1o": "2025", "Pernoctaciones": 1029654.0, "Tasa_Ocupaci\u00f3n": 35.1, "Pernoctaciones_millones": 1.029654}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
