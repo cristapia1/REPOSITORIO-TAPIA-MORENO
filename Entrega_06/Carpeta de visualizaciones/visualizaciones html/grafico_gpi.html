@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"mark": {"type": "line", "color": "red", "strokeWidth": 3}, "encoding": {"color": {"value": "red"}, "x": {"field": "A\u00f1o", "title": "A\u00f1o", "type": "ordinal"}, "y": {"field": "Posici\u00f3n", "scale": {"domain": [70, 1]}, "title": "Posici\u00f3n en el \u00edndice", "type": "quantitative"}}}, {"mark": {"type": "point"}, "encoding": {"opacity": {"value": 0}, "x": {"field": "A\u00f1o", "type": "ordinal"}}, "name": "view_9"}, {"mark": {"type": "point"}, "encoding": {"color": {"value": "red"}, "opacity": {"condition": {"param": "param_9", "value": 1, "empty": false}, "value": 0}, "x": {"field": "A\u00f1o", "title": "A\u00f1o", "type": "ordinal"}, "y": {"field": "Posici\u00f3n", "scale": {"domain": [70, 1]}, "title": "Posici\u00f3n en el \u00edndice", "type": "quantitative"}}}, {"mark": {"type": "rule", "color": "gray"}, "encoding": {"x": {"field": "A\u00f1o", "type": "ordinal"}}, "transform": [{"filter": {"param": "param_9", "empty": false}}]}, {"mark": {"type": "text", "align": "left", "dx": 5, "dy": -5}, "encoding": {"color": {"value": "red"}, "text": {"condition": {"param": "param_9", "empty": false, "field": "Posici\u00f3n", "type": "quantitative"}, "value": " "}, "x": {"field": "A\u00f1o", "title": "A\u00f1o", "type": "ordinal"}, "y": {"field": "Posici\u00f3n", "scale": {"domain": [70, 1]}, "title": "Posici\u00f3n en el \u00edndice", "type": "quantitative"}}}], "data": {"name": "data-25b6530940fdf99b9ead25a390e390a4"}, "height": 300, "params": [{"name": "param_9", "select": {"type": "point", "fields": ["A\u00f1o"], "nearest": true, "on": "pointerover"}, "views": ["view_9"]}], "title": "Posici\u00f3n de Chile en el Global Peace Index (2009\u20132024)", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-25b6530940fdf99b9ead25a390e390a4": [{"A\u00f1o": 2009, "Posici\u00f3n": 20}, {"A\u00f1o": 2010, "Posici\u00f3n": 28}, {"A\u00f1o": 2011, "Posici\u00f3n": 38}, {"A\u00f1o": 2012, "Posici\u00f3n": 30}, {"A\u00f1o": 2013, "Posici\u00f3n": 31}, {"A\u00f1o": 2014, "Posici\u00f3n": 30}, {"A\u00f1o": 2015, "Posici\u00f3n": 29}, {"A\u00f1o": 2016, "Posici\u00f3n": 27}, {"A\u00f1o": 2017, "Posici\u00f3n": 24}, {"A\u00f1o": 2018, "Posici\u00f3n": 28}, {"A\u00f1o": 2019, "Posici\u00f3n": 27}, {"A\u00f1o": 2020, "Posici\u00f3n": 45}, {"A\u00f1o": 2021, "Posici\u00f3n": 49}, {"A\u00f1o": 2022, "Posici\u00f3n": 55}, {"A\u00f1o": 2023, "Posici\u00f3n": 58}, {"A\u00f1o": 2024, "Posici\u00f3n": 64}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
